@@ -1,9 +1,10 @@
 package util;
 
+import org.junit.After;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.Test;
+
+
 
 public class PracticalExam {
 	static  WebDriver driver;
@@ -25,7 +26,7 @@ public class PracticalExam {
  return driver;
 	}
 
-	@AfterMethod
+	@After
 	public static WebDriver closeBrowser() throws Throwable {
 		Thread.sleep(5000);
 		driver.close();

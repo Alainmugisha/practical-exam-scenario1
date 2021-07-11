@@ -21,8 +21,7 @@ public class Toggle_all_check_box {
 
 	@FindBy(how = How.XPATH, using = "/html/body/div[3]/input[3]")
 	WebElement TOGGLE_ALL_CHECK_BOX;
-	// I tried to use ID, NAME, TAG_name but none of those works and i used Xpath
-	// eg://input[@name='allbox']
+	
 
 	public void toggle_all() {
 

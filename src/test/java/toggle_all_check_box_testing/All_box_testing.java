@@ -1,8 +1,9 @@
 package toggle_all_check_box_testing;
 
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.Test;
+
 
 import pages.Toggle_all_check_box;
 import util.PracticalExam;
